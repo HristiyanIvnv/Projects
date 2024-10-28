@@ -1,0 +1,9 @@
+import datetime
+
+dt = datetime.datetime
+now = dt.now()
+
+timeLeft = dt(year = 2024, month = 12, day = 25) - dt(year=now.year,month=now.month, day=now.day)
+
+print('Days left untill Christmas:')
+print(timeLeft.days)
